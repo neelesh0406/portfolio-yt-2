@@ -9,9 +9,9 @@ export default function About({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
+      className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-5 md:px-10 justify-center md:justify-evenly mx-auto items-center space-y-10 md:space-y-0"
     >
-      <h3 className="absolute top-20 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-10 md:top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
 
@@ -34,7 +34,7 @@ export default function About({}: Props) {
           <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
           background
         </h4>
-        <p className="text-sm text-base">
+        <p className="text-sm text-base px-10 md:px-0">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
           debitis in? Inventore quia veniam quam expedita iusto enim veritatis
           aliquam perferendis possimus quaerat mollitia corporis blanditiis esse
@@ -42,9 +42,6 @@ export default function About({}: Props) {
           obcaecati! Asperiores sed similique eaque odit, soluta sapiente!
           Pariatur repudiandae minima non, debitis est ipsum iure. Iure aut
           nostrum eligendi repellendus soluta earum cumque atque, vero labore
-          inventore ex non, est eum laudantium accusantium deleniti molestiae
-          temporibus. Expedita quo natus quos assumenda veritatis aspernatur
-          labore?
         </p>
       </div>
     </motion.div>
