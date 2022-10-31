@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { urlFor } from "../sanity";
+import { PageInfo } from "../typings";
 
-type Props = {};
+type Props = {
+  pageInfo: PageInfo;
+};
 
-export default function About({}: Props) {
+export default function About({ pageInfo }: Props) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -25,7 +29,7 @@ export default function About({}: Props) {
         }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        src="https://qph.cf2.quoracdn.net/main-thumb-85506114-200-stzbvssyyajbpliakjspulndkxerlitd.jpeg"
+        src={urlFor(pageInfo?.profilePic).url()}
         className="mb-15 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]"
       />
       <div className="space-y-10 px-0 md:px-10">
@@ -35,13 +39,7 @@ export default function About({}: Props) {
           background
         </h4>
         <p className="text-sm text-base px-10 md:px-0">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-          debitis in? Inventore quia veniam quam expedita iusto enim veritatis
-          aliquam perferendis possimus quaerat mollitia corporis blanditiis esse
-          tempore ad rem necessitatibus atque, corrupti aspernatur vitae
-          obcaecati! Asperiores sed similique eaque odit, soluta sapiente!
-          Pariatur repudiandae minima non, debitis est ipsum iure. Iure aut
-          nostrum eligendi repellendus soluta earum cumque atque, vero labore
+          {pageInfo?.backgroundInformation}
         </p>
       </div>
     </motion.div>

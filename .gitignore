@@ -4,7 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-/portfolio-yt-2-build/node_modules
 
 # testing
 /coverage
@@ -12,6 +11,9 @@
 # next.js
 /.next/
 /out/
+
+#Sanity
+/portfolio-yt-2-build/node_modules
 
 # production
 /build
