@@ -31,7 +31,9 @@ export default function ContactMe({ pageInfo }: Props) {
       <div className="flex flex-col space-y-10">
         <h4 className="text-3xl md:text-4xl font-semibold text-center">
           I have got just what you need.{" "}
-          <span className="underline decoration-[#F7AB0A]/50">Let's Talk.</span>
+          <span className="underline decoration-[#F7AB0A]/50">
+            Let&apos;s Talk.
+          </span>
         </h4>
 
         <div className="space-y-5">
