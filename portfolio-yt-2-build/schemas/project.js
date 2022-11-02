@@ -33,5 +33,10 @@ export default {
             title: "LinkToBuild",
             type: "url",
         },
+        {
+            name: "priority",
+            title: "Priority Of Display",
+            type: "number",
+        }
     ],
 };
