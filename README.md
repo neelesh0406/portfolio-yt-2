@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Depolyed URl - [https://portfolio-yt-2-0-neelesh0406.vercel.app/](https://portfolio-yt-2-0-neelesh0406.vercel.app/)
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Backend with Sanity.io. Tailwind CSS . Animations with Framer Motion.
 
 ## Getting Started
 
